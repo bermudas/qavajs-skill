@@ -1,0 +1,30 @@
+# Skill-creator eval workspaces — generated artifacts, not source
+qavajs-workspace/
+*-workspace/
+
+# Eval prompts and artifacts — kept locally for iteration, not distributed
+skills/*/evals/
+evals/
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+.aider*
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Local research clones (the refresh-catalogs.sh script will re-pull these)
+.qavajs-research/
+/tmp/qavajs-*/
+
+# Local environment overrides
+.env
+.env.local
+.playwright-mcp/

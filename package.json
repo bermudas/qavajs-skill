@@ -1,0 +1,38 @@
+{
+  "name": "qavajs-skill",
+  "version": "0.1.0",
+  "description": "Authoritative Claude / Cursor / Windsurf skill for the qavajs BDD test-automation framework. ~270 literal Gherkin step patterns, full config and CLI reference, page-object DSL, and runner-specific guides for Playwright, WebdriverIO, Appium and REST/GraphQL/WebSocket APIs. Installable via npx.",
+  "type": "module",
+  "bin": {
+    "init": "./bin/init.mjs"
+  },
+  "scripts": {
+    "refresh-catalogs": "bash ./skills/qavajs/scripts/refresh-catalogs.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bermudas/qavajs-skill.git"
+  },
+  "homepage": "https://github.com/bermudas/qavajs-skill#readme",
+  "bugs": "https://github.com/bermudas/qavajs-skill/issues",
+  "author": "Alexander Bychinskiy <bermudas.alexander@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "qavajs",
+    "cucumber",
+    "bdd",
+    "playwright",
+    "webdriverio",
+    "wdio",
+    "appium",
+    "test-automation",
+    "claude",
+    "cursor",
+    "windsurf",
+    "skill",
+    "agent-skills"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "name": "qavajs",
+      "path": "skills/qavajs",
+      "description": "Authoritative guide to the qavajs BDD test-automation framework — config, CLI, memory, validation, page-object DSL, composition, parallel/sharding, ~300 literal Gherkin step patterns across 11 @qavajs/steps-* packages, plus agent-driven workflows for creating, running and fixing tests.",
+      "version": "1.2.0",
+      "framework_version": "qavajs 2.x",
+      "upstream": {
+        "docs": "https://qavajs.github.io",
+        "org": "https://github.com/qavajs",
+        "demo": "https://github.com/qavajs/demo"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "browser-verify",
+      "path": "skills/browser-verify",
+      "description": "Testing-grade browser automation via Chrome DevTools Protocol — direct DOM, JS-runtime, network, cookies, computed-styles and console access. No external dependencies beyond Node 22's built-in WebSocket. Used by the qavajs agent to ground-truth selectors and triage flake against a live Chrome.",
+      "version": "0.1.0",
+      "license": "Apache-2.0",
+      "source_repo": "https://github.com/bermudas/toscacloud_cli"
+    },
+    {
+      "name": "playwright-cli",
+      "path": "skills/playwright-cli",
+      "description": "Reference for Microsoft's @playwright/cli — a snapshot/ref-based browser automation CLI separate from @playwright/test. Covers open/goto/click/fill/snapshot/eval, named sessions, attach to a paused --debug=cli test, request mocking via route, storage-state save/load, tracing, and video recording. Auto-generates Playwright TS code from interactions.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "source_repo": "https://github.com/qavajs/demo"
+    }
+  ]
+}
